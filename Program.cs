@@ -12,8 +12,7 @@ namespace ConsoleApp
         }
 
         private static void CyclicRotation()
-        {
-            int[] C = Array.Empty<int>();
+        {          
             int[] A = { 1, 4, 5, 6 };
             int K = Convert.ToInt32(Console.ReadLine());
             foreach(int value in A)
